@@ -33,38 +33,22 @@
 
   }
 
-  .belowLogo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-
-
-  #logo {
-    width: 55%;
-  }
-
+ 
   .logoText{
     display: none;
     align-items: center;
+    width: 50%;
     font-size: 100px;
     transition: opacity 1s;
   }
 
-  .box--hidden {
-    opacity: 0;
-  }
 
-  .logoText p {
+  /* .logoText p {
     margin: -50px 0;
-    /* color: white; */
-  }
+    color: white;
+  } */
 
-  
-  #arrow{
-    transform: rotate(180deg);
-  }
+
 
   /* Style the button used to pause/play the video */
   #myBtn {
