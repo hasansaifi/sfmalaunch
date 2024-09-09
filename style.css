@@ -36,12 +36,17 @@
  
   .logoText{
     display: none;
+    justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
     font-size: 100px;
     transition: opacity 1s;
   }
 
+  #logo {
+    width: 80%;
+
+  }
 
   /* .logoText p {
     margin: -50px 0;
